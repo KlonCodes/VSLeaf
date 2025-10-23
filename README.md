@@ -2,22 +2,23 @@
 
 # VS Code + Latex + Git Template
 
-![Wowza](https://b2326552.smushcdn.com/2326552/wp-content/uploads/2021/04/competence_collaboration-1024x782.png?lossy=2&strip=1&webp=1)
+![VSLeaf](/.vscode/VSLeaf.png)
 
-> Work In Progress With ACM Template
+> Work In Progress Overleaf Replacement With ACM Template
 
-## Basic Instructions
+## Basic Setup
 
-- Should prompt you to install all extensions neededWW
-- If not, they're in `extensions.json`
-- The `settings.json` file has some tunable parameters to check out.
+- Make sure you have Latex Installed
+  - I like MiKTeX (you'll need perl) but MacTeX, TeX live, TinyTeX, etc. should work
+- Then, open this repo in VSCode.
+- It should prompt you to install all extensions needed.
+  - If not, they're in `extensions.json`
+  - The `settings.json` file has some parameters to check out.
 
 ## Editor Instructions
 
-- Pressing `Ctrl+S` will save the document and generate PDF in the **PDF** folder
-- To check the generated PDF click on the PDF file. _(slow the first time)_
-- If it shows **Error showing PDF** or in case of any inconvenience, just reload the browser or press `Ctrl+R`
-- PDF wilkl autoupdate when saving that file, buy you can turn that off in `settings.json`.
+- Everything should *hopefully* just work, assuming all the above is done.
+- Depending on existing VS Code setup you might have conflicts to resolve.
 
 ## Live Collaboration
 
@@ -25,9 +26,13 @@
 - Just click on the **Live Share** Sidebar button
 - Share the link, approve, then you can live collaborate and chat etc.
 
-## PDF Viewer Dark Mode
+## PDF Viewer
 
+- Pressing `Ctrl+S` will save the document and generate PDF in the **PDF** folder
+- To check the generated PDF click "View LaTeX PDF file" in your preview bar or press "Ctrl+alt+v"
+- If it shows **Error showing PDF** or in case of any inconvenience, just reload the browser or press `Ctrl+R`
+- PDF will autoupdate when saving the tex file, buy you can turn that off in `settings.json`.
 - The pdf viewer will preview the pdf in light Mode by default.
-- You can **uncomment** the noted lines from `settings.json` to get rid of that.
+- You can **uncomment** the noted lines from `settings.json` to switch to dark.
 
 </div>
