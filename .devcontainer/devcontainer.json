@@ -1,5 +1,6 @@
 {
-  "name": "VSLATEX",
+  "name": "LatexInCode",
+  "image": "KlonCodes/LatexInCode_Docker:latest",
   "remoteUser": "root", // Do not change this
   "features": {},
   "customizations": {
