@@ -40,8 +40,8 @@
     "%DOC%"
   ],
   // Change here for Dark-Mode PDFs
-  "latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717", // For Dark Viewer
-  "latex-workshop.latex.autoBuild.run": "never",
+  //"latex-workshop.view.pdf.color.dark.pageColorsBackground": "#171717", // For Dark Viewer
+  //"latex-workshop.latex.autoBuild.run": "never",
   "latex-workshop.view.pdf.color.dark.pageColorsForeground": "#FFFFFF", // For Dark Viewer
   "latex-workshop.view.pdf.color.dark.backgroundColor": "#171717", // For Dark Viewer
   "editor.formatOnSave": true,
