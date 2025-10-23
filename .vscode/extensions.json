@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    "James-Yu.latex-workshop",
+    "GitHub.copilot",
+    "ms-vsliveshare.vsliveshare",
+    "streetsidesoftware.code-spell-checker",
+    "matthiasschedel.bibtex-manager",
+    "mathematic.vscode-latex",
+    "torn4dom4n.latex-support",
+    "tecosaur.latex-utilities",
+    "nickfode.latex-formatter",
+    "valentjn.vscode-ltex",
+    "yzhang.markdown-all-in-one"
+    // Uncomment the line below if you do not want LanguageTool Support
+    // "valentjn.vscode-ltex",
+  ]
+}
