@@ -4,7 +4,7 @@
 
 ![Wowza](https://b2326552.smushcdn.com/2326552/wp-content/uploads/2021/04/competence_collaboration-1024x782.png?lossy=2&strip=1&webp=1)
 
-> Work In Progress
+> Work In Progress fopr Docker Version
 
 ## Basic Instructions
 
