@@ -8,9 +8,9 @@
 
 ## Basic Setup
 
-- Make sure you have Latex Installed
-  - I like MiKTeX (you'll need perl) but MacTeX, TeX live, TinyTeX, etc. should work
-- Then, open this repo in VSCode.
+- Make sure you have LaTeX Installed
+  - I prefer MiKTeX / MacTeX (you'll need perl) but others should work
+- Open this repo in VSCode.
 - It should prompt you to install all extensions needed.
   - If not, they're in `extensions.json`
   - The `settings.json` file has some parameters to check out.
@@ -20,18 +20,20 @@
 
 - Everything should *hopefully* just work, assuming all the above is done.
 - Depending on existing VS Code setup you might have conflicts to resolve.
-- To comment use `\cin{text}` for inline comments, or `\chl[name]{comment}` for longer, hoverable comments that don't break the flow of teh document. 
+- To comment use `\cin{text}` for inline comments, or `\chl[name]{comment}` for longer, hoverable comments that don't break wordflow. 
 
 ## Live Collaboration
 
-- In addition to Git Sync, we can also live collaborate with an extension.
+- In addition to Github Syncing, we can also joint work share with an extension.
 - Just click on the **Live Share** Sidebar button
 - Share the link, approve, then you can live collaborate and chat etc.
+- Note that the _invitee_ just has an instance and the _invite-er_ will need to commit changes.
+- ALSO, any notes/chats from the live session only exist within the share instance.
 
 ## PDF Viewer
 
 - Pressing `Ctrl+S` will save the document and generate PDF in the **PDF** folder
-- To check the generated PDF click "View LaTeX PDF file" in your preview bar or press "Ctrl+alt+v"
+- To check the generated PDF click "View LaTeX PDF file" in your preview bar or press `Ctrl+alt+v`
 - If it shows **Error showing PDF** or in case of any inconvenience, just reload the browser or press `Ctrl+R`
 - PDF will autoupdate when saving the tex file, buy you can turn that off in `settings.json`.
 - The pdf viewer will preview the pdf in light Mode by default.
