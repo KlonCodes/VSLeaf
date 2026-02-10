@@ -57,10 +57,7 @@
     "authornotemark",
     "chktex",
     "SIGGRAPH",
-    "authornote",
-    "authornotemark",
-    "chktex",
-    "SIGGRAPH",
+    "synctex",
     "texbook",
     "thebibliography",
     "unskip"
@@ -73,11 +70,21 @@
   "latex-workshop.message.latexlog.exclude": [
     "Option `pdftex' has already been used,\\s*\\(hyperref\\)\\s*setting the option has no effect\\.",
     "texmf-dist",
-    "/usr/local/texlive/"
+    "/usr/local/texlive/",
+    "Command \\\\showhyphens\\s+has changed\\.",
+    "Class acmart:.*\\\\vspace.*surrounding objects\\."
+  ],
+  "texlab.diagnostics.ignoredPatterns": [
+    "Class acmart: \\\\vspace should only be used to provide space above/below surrounding objects\\."
   ],
   "problems.exclude": {
     "**/texmf-dist/**": true,
     "**/usr/local/texlive/**": true
   },
-  "latex-workshop.linting.chktex.enabled": false
+  "latex-workshop.linting.lacheck.enabled": false,
+  "latex-workshop.linting.chktex.enabled": false,
+  "latex-workshop.message.latexlog.show": false,
+  "latex-workshop.message.latexlog.enabled": false,
+  "latex-workshop.linting.enabled": false,
+  "latex-workshop.diagnostic.enabled": false
 }

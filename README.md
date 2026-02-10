@@ -21,7 +21,8 @@
 - Everything should *hopefully* just work, assuming all the above is done.
 - Depending on existing VS Code setup you might have conflicts to resolve.
 - To comment use `\cin{text}` for inline comments, or `\chl[name]{comment}` for longer, hoverable comments that don't break wordflow. 
-
+- **small update**
+  - Color your inline comments (grey default) with **\cinR**, **\cinY**, **\cinG** and **\cinB**, for Red, Yellow, Green, and Blue Comments.
 ## Live Collaboration
 
 - In addition to Github Syncing, we can also joint work share with an extension.

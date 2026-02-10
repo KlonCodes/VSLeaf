@@ -1,18 +1,15 @@
-%%  Hello Folks
 % chktex-file 1
 % chktex-file 2
 % chktex-file 8
 % chktex-file 24
 % chktex-file 32
-
 \documentclass[sigconf, screen, review]{acmart}
 % when submitting to PCS change to: \documentclass[sigconf, authordraft, review, anonymous]{acmart}
 % when submitting to TAPS change to: \documentclass[sigconf]{acmart}
-
 %% \BibTeX command to typeset BibTeX logo in the docs
 \AtBeginDocument{%
   \providecommand\BibTeX{{%
-    Bib\TeX}}}
+Bib\TeX}}}
 \listfiles
 
 %% Rights management -- sent when you complete the rights form.
@@ -23,8 +20,8 @@
 
 %% These commands are for a PROCEEDINGS abstract or paper.
 \acmConference[Conference acronym `XX]{Make sure to enter the correct
-  conference title from your rights' confirmation email}{June 03--05,
-  2018}{Woodstock, NY}
+conference title from your rights' confirmation email}{June 03--05,
+2018}{Woodstock, NY}
 
 %% Uncomment \acmBooktitle if the title of the proceedings is different from ``Proceedings of ...''!
 %% \acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection, June 03--05, 2018, Woodstock, NY}
@@ -38,10 +35,16 @@
 
 %% All the added Latex Stuff; packages and new commands.
 \input{preamble.tex}
+\setlength {\marginparwidth }{2cm}
 
 %%
 \begin{document}
 %%
+
+
+\begin{comment}
+   Hello Folks
+\end{comment}
 
 %%[short title in page headers]{Full Title}
 \title[shorty]{My Slightly Modified ACM Template: 2025}
@@ -64,28 +67,28 @@
 \orcid{0000--0000--0000--0000}
 \email{email@place.ca}
 \affiliation{%
-	\institution{University of Science}
-	\city{Townsville}
-	\state{Region}
-	\country{area}
+  \institution{University of Science}
+  \city{Townsville}
+  \state{Region}
+  \country{area}
 }
 \author{Name}
 \orcid{0000--0000--0000--0000}
 \email{email@place.ca}
 \affiliation{%
-	\institution{University of Science}
-	\city{Townsville}
-	\state{Region}
-	\country{area}
+  \institution{University of Science}
+  \city{Townsville}
+  \state{Region}
+  \country{area}
 }
 \author{Name}
 \orcid{0000-0000-0000-0000}
 \email{email@place.ca}
 \affiliation{%
-	\institution{University of Science}
-	\city{Townsville}
-	\state{Region}
-	\country{area}
+  \institution{University of Science}
+  \city{Townsville}
+  \state{Region}
+  \country{area}
 }
 
 %%
@@ -93,41 +96,41 @@
 
 %% ABSTRACT
 \begin{abstract}
-	\begin{itemize}[label={}, leftmargin=0pt,itemsep=0pt, parsep=0pt] % itemize style i like for short stuff
-		\item \textbf{The Way the World Is}
-		\item \textbf{The Problem with the World}
-		      \par Health, safety, security, happiness, enjoyment, Do things faster / more efficiently / Reduce ``costs'', better understanding, etc.
-		\item \textbf{Solution to the Problem (Experiment / System)}
-		\item Why it’s a good solution, How to evaluate the solution
-		\item \textbf{What We Found Out with Our Study}
-		\item \textbf{The Contribution / What We Provided}
-	\end{itemize}
+  \begin{itemize}[label={}, leftmargin=0pt,itemsep=0pt, parsep=0pt] % itemize style i like for short stuff
+    \item \textbf{The Way the World Is}
+    \item \textbf{The Problem with the World}
+      \par Health, safety, security, happiness, enjoyment, Do things faster / more efficiently / Reduce ``costs'', better understanding, etc.
+    \item \textbf{Solution to the Problem (Experiment / System)}
+    \item Why it’s a good solution, How to evaluate the solution
+    \item \textbf{What We Found Out with Our Study}
+    \item \textbf{The Contribution / What We Provided}
+  \end{itemize}
 \end{abstract}
 
 %% Copy and paste from http://dl.acm.org/ccs.cfm.
 \begin{CCSXML}
-	<ccs2012>
-	<concept>
-	<concept_id>00000000.0000000.0000000</concept_id>
-	<concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
-	<concept_significance>500</concept_significance>
-	</concept>
-	<concept>
-	<concept_id>00000000.00000000.00000000</concept_id>
-	<concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
-	<concept_significance>300</concept_significance>
-	</concept>
-	<concept>
-	<concept_id>00000000.00000000.00000000</concept_id>
-	<concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
-	<concept_significance>100</concept_significance>
-	</concept>
-	<concept>
-	<concept_id>00000000.00000000.00000000</concept_id>
-	<concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
-	<concept_significance>100</concept_significance>
-	</concept>
-	</ccs2012>
+  <ccs2012>
+  <concept>
+  <concept_id>00000000.0000000.0000000</concept_id>
+  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+  <concept_significance>500</concept_significance>
+  </concept>
+  <concept>
+  <concept_id>00000000.00000000.00000000</concept_id>
+  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+  <concept_significance>300</concept_significance>
+  </concept>
+  <concept>
+  <concept_id>00000000.00000000.00000000</concept_id>
+  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+  <concept_significance>100</concept_significance>
+  </concept>
+  <concept>
+  <concept_id>00000000.00000000.00000000</concept_id>
+  <concept_desc>Do Not Use This Code, Generate the Correct Terms for Your Paper</concept_desc>
+  <concept_significance>100</concept_significance>
+  </concept>
+  </ccs2012>
 \end{CCSXML}
 
 \ccsdesc[500]{Do Not Use This Code~Generate the Correct Terms for Your Paper}
@@ -140,11 +143,11 @@
 \keywords{Do, Not, Use, This, Code, Put, the Correct, Terms, for, Your, Paper}
 %% "teaser" image appears typically spans the page.
 \begin{teaserfigure}
-	\centering
-	\includegraphics[width=0.8\textwidth]{../../.vscode/VSleaf.png}
-	\caption{This is the caption that shows up for the Teaser Image}
-	\Description{this is the hidden, secret caption}
-	\label{fig:teaser}
+  \centering
+  \includegraphics[width=0.8\textwidth]{../../.vscode/VSleaf.png}
+  \caption{This is the caption that shows up for the Teaser Image}
+  \Description{this is the hidden, secret caption}
+  \label{fig:teaser}
 \end{teaserfigure}
 
 \received{20 February 2007}
@@ -171,25 +174,29 @@
 \section{Comments}
 \cin{This is a cin comment box}
 \par But, we could also do a \chl[klon]{use chl to add a hover comment with highlight text link} less-flow-breaking comment.
+\begin{comment}
+  We can do code comments in here for just us comments like this.
+% doing this is also okay, for shorter comments.
+\end{comment}
 
 \section{Discussion}
 \begin{figure}[!htbp]
-	\centering
-	\includegraphics[width=0.85\linewidth]{images/example.png}
-	\caption{Single Column image}
-	\label{fig:testone}
-	\Description{this is the hidden, secret caption}
+  \centering
+  \includegraphics[width=0.85\linewidth]{images/example.png}
+  \caption{Single Column image}
+  \label{fig:testone}
+  \Description{this is the hidden, secret caption}
 \end{figure}
 
 \section{Conclusion}
 \par Let's wrap it up, but notice spanning figures are tricky to place.\\
 See in figure \ref{fig:testtwo} below.
 \begin{figure*}[!htbp]
-	\centering
-	\includegraphics[width=0.7\linewidth]{images/example.png}
-	\caption{Double Column image}
-	\label{fig:testtwo}
-	\Description{this is the hidden, secret caption}
+  \centering
+  \includegraphics[width=0.7\linewidth]{images/example.png}
+  \caption{Double Column image}
+  \label{fig:testtwo}
+  \Description{this is the hidden, secret caption}
 \end{figure*}
 
 \bibliographystyle{ACM-Reference-Format}

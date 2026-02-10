@@ -15,8 +15,13 @@
 \usepackage{soul}
 
 % Comments
+\usepackage{comment} %This is for this kind of
 \usepackage{todonotes}
-\newcommand{\cin}{\todo[inline, color=green!80!white!35]}
+\newcommand{\cin}{\todo[inline, color=gray!80!white!35]}
+\newcommand{\cinR}{\todo[inline, color=red!80!white!35]}
+\newcommand{\cinY}{\todo[inline, color=yellow!80!white!35]}
+\newcommand{\cinG}{\todo[inline, color=green!80!white!35]}
+\newcommand{\cinB}{\todo[inline, color=blue!80!white!35]}
 
 % Link styling
 \hypersetup{
@@ -29,5 +34,4 @@
 % PDF comments/markups
 \usepackage[markup=Highlight,color=pink]{pdfcomment}
 \newcommand{\chl}[2][]{\pdfmarkupcomment[author={#1},markup=Highlight]{-- #1 --}{#2}}
-
 % ------------------------------------------------
